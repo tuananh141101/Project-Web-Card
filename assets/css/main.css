@@ -1,0 +1,80 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    background-color: rgb(236, 220, 220);
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container .User {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.container .User ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.container .User ul li:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(36, 145, 145);
+    border-radius: 50px;
+    text-align: center;
+    padding: 6px;
+}
+.container .User ul li:nth-child(1) h1 {
+    color: white;
+    font-size: 20px;
+}
+.container .User ul li:nth-child(2) {margin-right: 100px;}
+.container .User ul li:nth-child(2) span {color: gray;}
+
+.container .Image {
+    width: 100%;
+    height: 42%;
+}
+
+.container .Title {
+    width: 100%;
+    height: 36%;
+    padding: 15px;
+    color: gray;
+}
+
+.container .Icon {
+    width: 100%;
+    height: 10%;
+}
+.container .Icon ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 15px;
+}
+.container .Icon ul li:first-child a {padding-right: 15px;}
+.container .Icon ul li a i {font-size: 20px;color: gray;}
+.container .Icon ul li a:last-child i {font-size: 15px;}
